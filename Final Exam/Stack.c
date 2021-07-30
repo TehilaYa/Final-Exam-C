@@ -9,7 +9,6 @@ Stack* CreateStack()
 }
 
 
-
 void DeleteStack(Stack *stack) 
 {
 	if (stack->head->next != NULL)
